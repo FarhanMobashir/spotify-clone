@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/search-result.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="img-div">
+        <img class="logo" src="/assets/spotify-logo.png" alt="" />
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li class="home">
+            <i class="fa fa-home nav"></i><a href="/index.html"> Home</a>
+          </li>
+          <li class="search">
+            <i class="fa fa-search nav"></i><a href="#">Search</a>
+          </li>
+          <li class="library">
+            <i class="fa fa-book nav"></i><a href="#">Your library</a>
+          </li>
+        </ul>
+        <!-- </div> -->
+        <div class="sec-nav-bar">
+          <ul>
+            <li class="playlist">
+              <i class="fa fa-plus nav"></i><a href="#">Create Playlist</a>
+            </li>
+            <li class="likes">
+              <i class="fa fa-heart nav"></i><a href="#">Liked songs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="left-footer">
+          <ul class="footer">
+            <li>Cookies</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <header>
+        <div class="chevron-div">
+          <div class="chevron">
+            <i class="fa fa-chevron-left"></i>
+          </div>
+          <div class="chevron">
+            <i class="fa fa-chevron-right"></i>
+          </div>
+          <form action="/search-result.html" class="search-input-div">
+            <i class="fa fa-search search-input-icon"></i>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="artist, songs, or podcast"
+              value="thunder"
+            />
+          </form>
+        </div>
+        <div class="login-signup">
+          <p class="signup">Sign Up</p>
+          <p class="login">Log In</p>
+        </div>
+      </header>
+      <div class="right-upper">
+        <div class="right-upper-right">
+          <div class="top-result-heading">Top Results</div>
+          <div class="top-result">
+            <div class="top-result-card">
+              <div class="top-result-img-div">
+                <img
+                  class="top-result-img"
+                  src="/assets/Rectangle 9.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="top-result-artist-name">Imagine Dragons</div>
+              <div class="tag">Artist</div>
+            </div>
+          </div>
+          <div class="songs"></div>
+        </div>
+        <div class="right-upper-left"></div>
+      </div>
+
+      <div class="left-lower"></div>
+    </div>
+  </body>
+</html>
