@@ -109,6 +109,7 @@ i {
 
 header {
   display: flex;
+  z-index: 1;
   height: 65px;
   justify-content: space-between;
   background-color: var(--main-black-bg);
