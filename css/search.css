@@ -227,7 +227,7 @@ input[type="text"]:focus {
 }
 
 .chart-items {
-  grid-column: span/2;
+  /* grid-column: span/2; */
   /* width: 180px;
   height: 200px; */
   margin: 16px;
@@ -245,10 +245,10 @@ input[type="text"]:focus {
 }
 
 .browse-img-div {
-  transform: rotate(45deg);
+  transform: rotate(30deg);
   display: flex;
   justify-content: flex-end;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 50px;
   margin-right: -10px;
 }
